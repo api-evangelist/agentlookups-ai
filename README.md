@@ -64,5 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentlookups-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentlookups.ai/
+agentlookups.ai provides a suite of public‑record lookup tools for consumers and agents, offering APIs for contractor license verification, drug price transparency, environmental record access, and property‑assessment fairness. The platform hosts six services—license, drug price, environmental, property, food, and water—each exposed via a simple, unauthenticated MCP (Machine‑Connect‑Protocol) endpoint that returns JSON. Documentation is available at /docs/, with privacy and terms pages. The service is operated by TopHat Monkey Software LLC and aims to champion open data for everyday decisions.
+
+**Areas:** Public Records · Consumer Tools · API · Data · Beta
+
+## agentlookups-ai on APIs.io
+
+Everything profiled for agentlookups-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentlookups-ai/](https://apis.io/providers/agentlookups-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Plumbline](https://apis.io/apis/agentlookups-ai/plumbline/) — Checks a contractor's license by number or business name in official licensing-board records.
+- [CounterScript](https://apis.io/apis/agentlookups-ai/counterscript/) — What US pharmacies pay for a drug (CMS NADAC), a fair cash-price range, FDA generic equivalents and Medicare negotiated prices.
+- [GroundTruth](https://apis.io/apis/agentlookups-ai/groundtruth/) — Federal environmental records near a US address, drinking-water violations by county, and address due-diligence layers.
+- [Overassessed](https://apis.io/apis/agentlookups-ai/overassessed/) — Whether a Maryland property assessment is fair next to similar homes, with the appeal windows.
+- [GroundRules](https://apis.io/apis/agentlookups-ai/groundrules/) — Which governments make law at a US address, and the original text of US law with its citation, source and date.
+- [Spoon Scout](https://apis.io/apis/agentlookups-ai/spoon-scout/) — What labs, regulators and recalls have found in US packaged foods: lab results for metals and plastic chemicals, FDA recalls, additive rules, and FDA's…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentlookups Ai Authentication](https://apis.io/security/agentlookups-ai/agentlookups-ai-authentication/)
+- [Agentlookups Ai Domain Security](https://apis.io/security/agentlookups-ai/agentlookups-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agentlookups Ai Scopes](https://apis.io/scopes/agentlookups-ai/agentlookups-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentlookups Ai Plans Pricing](https://apis.io/plans/agentlookups-ai/agentlookups-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentlookups.ai/)
+- [Documentation](https://agentlookups.ai/docs/)
+- [Getting started](https://agentlookups.ai/docs/)
+- [API reference](https://agentlookups.ai/docs/)
+- [Terms of service](https://agentlookups.ai/terms/)
+- [Privacy policy](https://agentlookups.ai/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 18.2** — emerging · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentlookups-ai/](https://apis.io/providers/agentlookups-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for agentlookups-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentlookups-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
